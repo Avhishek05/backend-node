@@ -63,6 +63,9 @@ let UserSchema = new Schema({
         type: Boolean,
         default: false
     },
+    channels: {
+    type: Object,
+    },
 }, {timestamps: true});
 
 
